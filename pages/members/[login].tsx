@@ -45,7 +45,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
       fallback false means that uncreated static pages on build will
       return 404 page, when true the pages will be created...
     */
-    fallback: false
+    fallback: true
   }
 }
 
